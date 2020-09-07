@@ -9,7 +9,6 @@ pipeline {
         stage("test") {
             steps {
                 echo 'testing the app...'
-                // cat index.html
             }
         }
         stage("deploy") {
